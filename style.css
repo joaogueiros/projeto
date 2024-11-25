@@ -22,6 +22,7 @@ body {
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --high-light-color: rgba(255, 255, 255, 0.2);
   --switch-bg-url: url(./assets/moon-stars.svg);
+  --profile-img_url: url(./assets/avatar.png);
 }
 
 .light {
@@ -32,6 +33,7 @@ body {
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --high-light-color: rgba(0, 0, 0, 0.1);
   --switch-bg-url: url(./assets/sun.svg);
+  --profile-img-url: url(./assets/avatar_light.png);
 }
 
 body {
