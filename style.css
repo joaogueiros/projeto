@@ -46,7 +46,8 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 580px;
   /*border: 1px solid red;*/
   margin: 56px auto 0px;
   padding: 0 24px;
@@ -167,4 +168,11 @@ ul li a:hover {
 
 footer {
   padding: 24px 0;
-  t
+  text-align: center;
+  transition: 0.2;
+}
+
+footer a:hover {
+  font-weight: bold;
+  font-size: 14px;
+}

@@ -1,7 +1,7 @@
 <h1 align="center"> ProjetoJ</h1>
 
 <p align="center">
-Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB.
+Primeiro projeto de html e css.
 </p>
 
 <p align="center">
@@ -31,7 +31,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O Calendário da Copa é um projeto que mostra os jogos da Copa de 2022.
+Com o apoio do curso na RocketSeat e acompanhamento de pessoas experientes na área.
 
 ## 🔖 Layout
 
