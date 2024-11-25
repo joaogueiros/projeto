@@ -167,11 +167,4 @@ ul li a:hover {
 
 footer {
   padding: 24px 0;
-  text-align: center;
-  transition: 0.2;
-}
-
-footer a:hover {
-  font-weight: bold;
-  font-size: 14px;
-}
+  t
