@@ -13,4 +13,3 @@ function toggleMode() {
     //se tiver sem light mode, manter a imagem norm
     img.setAttribute("src", "./assets/avatar.jpeg")
   }
-}
