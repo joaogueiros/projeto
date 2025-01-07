@@ -1,90 +1,60 @@
 <!DOCTYPE html>
-<html lang="pt-br" class="light">
-  <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap"
-      rel="stylesheet"
-    />
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cronômetro</title>
+  <link rel="stylesheet" href="style.css">
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>dev_links</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="container">
-      <div id="profile">
-        <img
-          src="assets/avatar_light.jpeg"
-          alt="Foto de uma estátua cinza com baixa iluminação"
-        />
-        <p>@joaogueiros</p>
-      </div>
 
-      <div id="switch" onclick="toggleMode()">
-        <button></button>
-        <span></span>
-      </div>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+</head>
 
-      <div>
-        <ul>
-          <li>
-            <a href="#">E-book</a>
-          </li>
+<body>
+    
+    <div class="fundocronometro">
+        
+        <div> <p class="titulo">Hoje faz oficialmente</p></div>
+        
+        <main id="timer-container">
+            
+            
+            <div class="time-block">
+                <div class="numeros"> <span class="time-value days">0</span></div> <br>
+                <span class="time-label">Dias</span>
+            </div>
 
-          <li>
-            <a href="#">Saiba mais sobre mim</a>
-          </li>
+            <div class="time-block">
+                <div class="numeros"> <span class="time-value hours">0</span> </div> <br>
+                <span class="time-label">Horas</span>
+            </div>
 
-          <li>
-            <a href="https://github.com/maykbrito" target="_blank">Ver o meu portfólio</a>
-          </li>
+            <div class="time-block">
+                <div class="numeros"> <span class="time-value minutes">0</span></div> <br>
+                <span class="time-label">Minutos</span>
+            </div>
+            
+            <div class="time-block">
+                <div class="numeros"> <span class="time-value seconds">0</span></div> <br>
+                <span class="time-label">Segundos</span>
+            </div>
+            
+        </main>
 
-          <li>
-            <a href="https://rocketseat.com.br/explorer" target="_blank"
-              >Conheça o explorer</a
-            >
-          </li>
-        </ul>
-        <div id="social-links">
-          <a href="https://github.com" target="_blank">
-            <ion-icon name="logo-github"></ion-icon>
-          </a>
+        <div> <p class="titulo_dois">que você mudou a minha vida!</p></div>
+        
+    </div> 
 
-          <a href="https://www.instagram.com/allcomtelecom/" target="_blank">
-            <ion-icon name="logo-instagram"></ion-icon>
-          </a>
+    <footer>
+        <p>Feito com amor pelo amor da sua vida</p>
+    </footer>
 
-          <a href="https://youtube.com" target="_blank">
-            <ion-icon name="logo-youtube"></ion-icon>
-          </a>
+      
 
-          <a
-            href="https://www.linkedin.com/company/allcom-brasil/"
-            target="_blank"
-          >
-            <ion-icon name="logo-linkedin"></ion-icon>
-          </a>
-        </div>
 
-        <footer>
-          Feito com ♥ pela
-          <a href="https://github.com/joaogueiros" target="_blank">JoaoGueiros</a>
-        </footer>
-      </div>
-    </div>
 
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-    ></script>
-
-    <script src="./script.js"></script>
-  </body>
+  <script src="script.js"></script>
+</body>
 </html>
