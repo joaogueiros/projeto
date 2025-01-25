@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cronômetro</title>
+    <link rel="stylesheet" href="style_home.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Text:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+
+<body>
+  <script>
+        function checkPassword() {
+            // Define a senha correta
+            const correctPassword = "05042024";
+            // Obtém a senha digitada no campo
+            const enteredPassword = document.getElementById("password").value;
+            
+            // Verifica a senha
+            if (enteredPassword === correctPassword) {
+                // Redireciona para outra página se a senha for correta
+                window.location.href = "/cronometro/index.html"
+            } else {
+                // Mostra um alerta se a senha estiver errada
+                alert("Senha incorreta!");
+            }
+        }
+    </script>
+<body> 
+  <div class="tudo">
+        <h1>Insira a senha para acessar</h1>
+    <form onsubmit="event.preventDefault(); checkPassword();" class="conjunto_senha">
+        <input type="password" id="password" placeholder="senha" class="senha">
+        <button type="submit">Entrar</button>
+    </form>
+    <h5> (a senha contém 8 digitos)</h5>
+  </div>
+
+</body>
+</html>
+
+
+  
+</body>
+</html>

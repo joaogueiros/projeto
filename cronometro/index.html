@@ -14,6 +14,12 @@
     />
   </head>
 
+  <script>
+    function voltarParaHome() {
+      window.location.href = "/home/index.html" // Rota relativa para a página inicial
+    }
+  </script>
+
   <body>
     <div class="fundocronometro">
       <div><p class="titulo">Hoje faz oficialmente</p></div>
@@ -55,6 +61,10 @@
       <li>
         <a href="#">Nossa playlist 🎧</a>
       </li>
+
+      <button onclick="voltarParaHome()" class="botoes">
+        Voltar para Home
+      </button>
     </ul>
 
     <footer>

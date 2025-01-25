@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url("foto_fundo.jpg");
+  background-image: url("/foto_fundo.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -117,7 +117,43 @@ ul li a {
   transition: background 0.2s;
 }
 
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 16px 24px;
+
+  background: rgb(01, 01, 01, 0.03);
+  border: 1px solid black;
+  border-radius: 8px;
+
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
+
+  transition: background 0.2s;
+
+  width: 100%;
+  max-width: 20px;
+  margin: 0px auto 0px;
+
+  list-style: none;
+
+  flex-direction: column;
+}
+
 ul li a:hover {
+  background: rgb(01, 01, 01, 0.8);
+  border: 1px solid var(--text-color);
+
+  color: white;
+}
+
+button:hover {
   background: rgb(01, 01, 01, 0.8);
   border: 1px solid var(--text-color);
 
@@ -135,7 +171,7 @@ footer {
 /* Telas pequenas (celulares) */
 @media only screen and (max-width: 768px) {
   body {
-    background-image: url("foto_fundo_dois.jpg");
+    background-image: url("/foto_fundo_dois.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
