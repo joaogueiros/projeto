@@ -17,6 +17,7 @@ body {
   background-color: rgba(255, 255, 255, 0.09);
   max-width: 1200px; /* Limitar a largura do conteúdo */
   margin: 0 auto; /* Centraliza o conteúdo */
+  border-radius: 1%;
 }
 
 .titulo,
@@ -102,7 +103,7 @@ ul li a {
 
   padding: 16px 24px;
 
-  background: rgb(01, 01, 01, 0.4);
+  background: rgb(01, 01, 01, 0.03);
   border: 1px solid black;
   border-radius: 8px;
 
@@ -111,13 +112,16 @@ ul li a {
 
   text-decoration: none;
   font-weight: 500;
+  color: black;
 
   transition: background 0.2s;
 }
 
 ul li a:hover {
   background: rgb(01, 01, 01, 0.8);
-  border: 1.5px solid var(--text-color);
+  border: 1px solid var(--text-color);
+
+  color: white;
 }
 
 footer {
@@ -131,7 +135,7 @@ footer {
 /* Telas pequenas (celulares) */
 @media only screen and (max-width: 768px) {
   body {
-    background-image: url("foto_fundo_dois.jpg");
+    background-image: url("foto_fundo_dois.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
