@@ -135,7 +135,7 @@ footer {
 /* Telas pequenas (celulares) */
 @media only screen and (max-width: 768px) {
   body {
-    background-image: url("foto_fundo_dois.jpeg");
+    background-image: url("foto_fundo_dois.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
